@@ -1,2 +1,4 @@
 # doViz
-Dodo Visualizer
+Dodo Visualizer for financial data
+
+## Coming Soon!
