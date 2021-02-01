@@ -1,10 +1,4 @@
----
-id: doc1
-title: doViz financial data visualizer
-sidebar_label: doViz Visualizer
-slug: /
----
-![img](../static/img/doviz.svg)
+![img](./assets/dovizPlots/doviz.svg)
 ## Financial Data Visualization using doViz (Beta1.0)
 
 doViz (dodo🦤Visualizer) is an open source financial data visualization tool from tradingDodo.
@@ -90,7 +84,7 @@ pdl.setDarkMode(True)
 pdl.visualize("priceonly")
 ```
 The above code should start a window, which refreshes after every 1 second. The end result should look like this:
-![img](assets/dovizPlots/aapl_msft_fb.png)
+![img](./assets/dovizPlots/aapl_msft_fb.png)
 
 Now, lets try to see what happened to Gamestop this week? 01/31/2021
 Unfortunately we don't have the second by second data for the day of the spike, but regardless, we can see the crazy activity over the last week, and the spike of 300%.
@@ -100,7 +94,7 @@ pdl.setDarkMode(False)
 pdl.addTickers(["GME","AMC","INTC"],[-1]) 
 pdl.visualize("priceonly")
 ```
-![img](assets/dovizPlots/gmeamc.png)
+![img](./assets/dovizPlots/gmeamc.png)
 
 Now, lets look at the volume data as well, by selecting parameter "allplots" for the function visualize.
 ```python
@@ -109,7 +103,7 @@ pdl.setDarkMode(True)
 pdl.addTickers(["GME","AMC"],[-1]) 
 pdl.visualize("allplots")
 ```
-![img](assets/dovizPlots/AMC_GME_all.png)
+![img](./assets/dovizPlots/AMC_GME_all.png)
 
 ### Creating a dashboard for analysis of price data using doviz and ipywidgets
 Here we have tries creating a simple dashboard, that retrieves the stock data ticker from your tickerdata folder and then creates a drop down menu
@@ -170,5 +164,5 @@ butt.on_click(on_butt_clicked)
 widgets.VBox([global_vars,butt,outt,text])
 ```
 This should give you a menu like this when you run the code. You can try creating a different dashboard
-![img](assets/dovizPlots/buttons.png)
+![img](./assets/dovizPlots/buttons.png)
 Alternatively, the module for button and menu based running is being added to doviz for more flexibility and easier usage.
