@@ -84,7 +84,7 @@ pdl.setDarkMode(True)
 pdl.visualize("priceonly")
 ```
 The above code should start a window, which refreshes after every 1 second. The end result should look like this:
-![img](./assets/dovizPlots/aapl_msft_fb.png)
+![img](./assets/dovizPlots/aapl_msft_fb.PNG)
 
 Now, lets try to see what happened to Gamestop this week? 01/31/2021
 Unfortunately we don't have the second by second data for the day of the spike, but regardless, we can see the crazy activity over the last week, and the spike of 300%.
@@ -164,5 +164,5 @@ butt.on_click(on_butt_clicked)
 widgets.VBox([global_vars,butt,outt,text])
 ```
 This should give you a menu like this when you run the code. You can try creating a different dashboard
-![img](./assets/dovizPlots/buttons.png)
+![img](./assets/dovizPlots/buttons.PNG)
 Alternatively, the module for button and menu based running is being added to doviz for more flexibility and easier usage.
