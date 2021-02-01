@@ -1,4 +1,4 @@
-![img](./assets/dovizPlots/doviz.svg)
+![img](./assets/images/dovizbig.svg)
 ## Financial Data Visualization using doViz (Beta1.0)
 
 doViz (dodo🦤Visualizer) is an open source financial data visualization tool from tradingDodo.
@@ -94,7 +94,7 @@ pdl.setDarkMode(False)
 pdl.addTickers(["GME","AMC","INTC"],[-1]) 
 pdl.visualize("priceonly")
 ```
-![img](./assets/dovizPlots/gmeamc.png)
+![img](./assets/dovizPlots/gmeamc.PNG)
 
 Now, lets look at the volume data as well, by selecting parameter "allplots" for the function visualize.
 ```python
@@ -103,7 +103,7 @@ pdl.setDarkMode(True)
 pdl.addTickers(["GME","AMC"],[-1]) 
 pdl.visualize("allplots")
 ```
-![img](./assets/dovizPlots/AMC_GME_all.png)
+![img](./assets/dovizPlots/AMC_GME_all.PNG)
 
 ### Creating a dashboard for analysis of price data using doviz and ipywidgets
 Here we have tries creating a simple dashboard, that retrieves the stock data ticker from your tickerdata folder and then creates a drop down menu
