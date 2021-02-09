@@ -189,4 +189,4 @@ Alternatively, the module for button and menu based running is being added to do
 ## Upcoming
 Portfolio representation
 Upcoming snapshot of how portfolios are represented
-![img](./assets/dovizPlots/portfolioPie.PNG)
+![img](./assets/dovizPlots/portfolios.PNG)
