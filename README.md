@@ -1,5 +1,20 @@
 <img src="./assets/images/dovizNew.gif" alt="drawing" width="200"/>
 
+<p align="center">
+    <a href="https://github.com/arnab64/doViz/actions">
+      <img alt="Tests Passing" src="https://github.com/arnab64/doViz/workflows/Test/badge.svg" />
+    </a>
+    <a href="https://codecov.io/gh/arnab64/doViz">
+      <img src="https://codecov.io/gh/arnab64/doViz/branch/master/graph/badge.svg" />
+    </a>
+    <a href="https://github.com/arnab64/doViz/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/arnab64/doViz?color=0088ff" />
+    </a>
+    <a href="https://github.com/arnab64/doViz/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/arnab64/doViz?color=0088ff" />
+    </a>
+</p>
+
 ## Financial Data Visualization using doViz (Beta1.0)
 
 doViz (dodo🦤Visualizer) is an open source financial data visualization tool from tradingDodo.
