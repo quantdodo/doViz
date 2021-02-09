@@ -1,4 +1,5 @@
 <img src="./assets/images/dovizNew.gif" alt="drawing" width="200"/>
+
 ## Financial Data Visualization using doViz (Beta1.0)
 
 doViz (dodo🦤Visualizer) is an open source financial data visualization tool from tradingDodo.
