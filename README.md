@@ -18,9 +18,14 @@ doViz (dodo🦤Visualizer) is an open source financial data visualization tool f
 - doViz can represent any sequential/streaming data with or without timestamp
 - doViz can be used to analyze local time-series CSV files by analyzing them sequentially
 - currently in doViz beta1.0 we are starting with visualizing financial data
+- Stuff you can currently do with doViz:
+    - Read and parse price files, multiple file formats and file kinds like OHLC data, Volume data, Short Interest data can be combined.
+    - Stock Price, Volume, OHLC, can be visualized for all dates available.
+    - Represent Portfolios in terms of multiple attributes (Pie chart of stocks bought, profit made, etc).
+    - Represent volume as heatmap for n days and visualize sequentially.
 
 ## Installation
-Currently we are on Beta only, hence you can clone our repo and start using doviz. We'll be releasing API's for realtime data visualization pretty soon.
+Currently we are on Beta, hence you can clone our repo and start using doviz. We'll be releasing API's for realtime data visualization pretty soon. We're planning to launch soon (by April 2021). 
 
 ## Using doviz for visualizing historical price data
 The following content has information on how to use the basic version of doviz. In this beta version of doviz, you can visualize your data you have as csv files.
