@@ -15,7 +15,7 @@
 
 ## Financial Data Visualization using doViz (Beta1.0)
 
-doViz (dodo🦤Visualizer) is an open source financial data visualization tool from tradingDodo.
+doViz (dodo🦤Visualizer) is an open source financial data visualization tool from the Quantitative Dodo.
 - doViz can represent any sequential/streaming data with or without timestamp
 - doViz can be used to analyze local time-series CSV files by analyzing them sequentially
 - currently in doViz beta1.0 we are starting with visualizing financial data
