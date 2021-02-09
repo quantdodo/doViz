@@ -1,9 +1,6 @@
 <img src="./assets/images/dovizNew.gif" alt="drawing" width="200"/>
 
 <p align="center">
-    <a href="https://github.com/arnab64/doViz/actions">
-      <img alt="Tests Passing" src="https://github.com/arnab64/doViz/workflows/Test/badge.svg" />
-    </a>
     <a href="https://codecov.io/gh/arnab64/doViz">
       <img src="https://codecov.io/gh/arnab64/doViz/branch/master/graph/badge.svg" />
     </a>
