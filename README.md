@@ -185,3 +185,8 @@ widgets.VBox([global_vars,butt,outt,text])
 This should give you a menu like this when you run the code. You can try creating a different dashboard
 ![img](./assets/dovizPlots/buttons.PNG)
 Alternatively, the module for button and menu based running is being added to doviz for more flexibility and easier usage.
+
+## Upcoming
+Portfolio representation
+Upcoming snapshot of how portfolios are represented
+![img](./assets/dovizPlots/portfolioPie.PNG)
